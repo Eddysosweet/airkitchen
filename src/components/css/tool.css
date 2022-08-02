@@ -1,0 +1,26 @@
+.tool {
+    position: relative;
+    width: 1116px;
+    height: 80px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+
+}
+
+.svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-right {
+    width: 221px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,22 @@
+.listmenu {
+    width: 1116px;
+    height: 50px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.listmenu>li {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.listmenu>li:hover {
+    color: #39B54A;
+    text-decoration: underline;
+}

@@ -1,0 +1,6 @@
+.app--header {
+    position: sticky;
+    background: whitesmoke;
+    top: -32px;
+    z-index: 10;
+}

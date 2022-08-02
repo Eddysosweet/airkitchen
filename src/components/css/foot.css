@@ -1,0 +1,100 @@
+.footer {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.contact {
+    width: 100%;
+    height: 381px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.contact>.network {
+    width: 356px;
+    text-align: left;
+
+}
+
+.contact>.network>p {
+    font-size: 14px;
+
+}
+
+.contact>.network .icons {
+    display: flex;
+    gap: 20px;
+    color: #100b00;
+    opacity: 0.4;
+}
+
+.contact .app {
+    width: 546px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.contact>.app>h5 {
+    background: white;
+    color: black;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact>.app>.app--icon {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 52px;
+}
+
+.contact>.app>.app--icon>li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.contact>.app>.raw {
+    display: inline-block;
+    font-size: 14px;
+    color: #100b00;
+    font-weight: bold;
+    width: 166px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.contact>.app>.raw>li:first-child {
+    opacity: 0.4;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer>.trademark {
+    box-sizing: border-box;
+    width: 100%;
+    background: #39b54a;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.trademark>p {
+    font-size: 14px;
+}
+
+.trademark>div>img {
+    margin-left: 10px;
+}
